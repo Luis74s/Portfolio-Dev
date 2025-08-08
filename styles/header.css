@@ -1,0 +1,74 @@
+header {
+    background-image: url('../assets/Imagens/Background_Intro.png');
+    background-size: cover;
+    background-position: center;
+}
+
+header p {
+    font: "Inconsolata", monospace 20px/120%;
+    font-weight: 400;
+    color: var(--gray-200-color);
+    padding: 8px;
+}
+
+.text1 {
+    font: "Inconsolata", monospace 16px/120%;
+    font-weight: 400;
+    color: var(--gray-300-color);
+    line-height: 24px;
+    padding: 20px;
+
+}
+
+header h1 {
+    font: var(--text-lg);
+    font-weight: 800;
+
+}
+
+strong {
+    color: var(--red-color);
+}
+
+.avatar {
+    justify-self: center;
+    padding: 56px;
+}
+
+header section {
+    display: grid;
+    padding: 94px;
+    color: #ffffff;
+    text-align: center;
+}
+
+header div {
+    padding: px;
+    display: flex;
+    justify-self: center;
+    gap: 16px;
+    align-items: center;
+    font: var(--text-md) 120%;
+    font-weight: 600;
+    color: var(--gray-200-color);
+}
+
+.icons {
+    border-radius: 24px;
+    padding: 2px;
+    padding: 8px 16px;
+    background-color: var(--gray-400-color);
+}
+
+.icons img {
+    width: 24px;
+    height: 24px;
+
+}
+.seta {
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+    padding: 94px;
+}
+
