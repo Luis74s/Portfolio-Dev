@@ -1,0 +1,89 @@
+main {
+    background-color: var(--gray-500-color);
+    padding: 72px;
+}
+
+.main-text {
+    text-align: center;
+}
+
+main .main-text p {
+    font: "Inconsolata", monospace 20px/120%;
+    color: var(--red-color);
+    text-align: center;
+}
+
+.main-text h3 {
+    font: var(--text-md);
+    color: var(--gray-100-color);
+    padding: 5px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card {
+    background-color: var(--gray-400-color);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 280px;
+}
+
+.container-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    padding: 56px;
+    justify-items: center;
+    align-items: center;
+    
+
+}
+
+
+.container-cards .card h5 {
+    padding: 10px 0;
+    font: var(--text-sm);
+    font-weight: 800;
+    color: var(--gray-100-color);
+}
+
+.container-cards .card p {
+    font-family: "Maven Pro", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--gray-200-color);
+
+}
+ 
+
+.services {
+    background-color: var(--gray-600-color);
+    padding: 20px;
+    text-align: center;
+    padding: 88px 0;
+}
+.services p {
+    font: "Inconsolata", monospace 20px/120%;
+    color: var(--red-color);
+    text-align: center;
+}
+.services h3 {
+    font: var(--text-md);
+    color: var(--gray-100-color);
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+

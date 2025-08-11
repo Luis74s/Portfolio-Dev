@@ -70,5 +70,7 @@ header div {
     height: 24px;
     margin-left: 8px;
     padding: 94px;
+    justify-content: center;
+    align-items: center;
 }
 
