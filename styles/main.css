@@ -44,7 +44,7 @@ main .main-text p {
     padding: 56px;
     justify-items: center;
     align-items: center;
-    
+
 
 }
 
@@ -62,21 +62,24 @@ main .main-text p {
     line-height: 20px;
     font-weight: 400;
     color: var(--gray-200-color);
-
 }
- 
-
 .services {
     background-color: var(--gray-600-color);
     padding: 20px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     padding: 88px 0;
 }
+
 .services p {
     font: "Inconsolata", monospace 20px/120%;
     color: var(--red-color);
     text-align: center;
 }
+
 .services h3 {
     font: var(--text-md);
     color: var(--gray-100-color);
@@ -84,6 +87,41 @@ main .main-text p {
     text-align: center;
 }
 
+.service-card {
+    border: 1px solid var(--gray-500-color);
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    justify-items: start;
+    align-items: start;
+    width: 280px;
+    height: 155px;
+}
+
+.service-card h5 {
+    font: var(--text-sm);
+    font-weight: 700;
+    color: var(--gray-100-color);
+    text-align: start;
 
 
+}
 
+.service-card span {
+    font-family: "Maven Pro", sans-serif 14px/140%;
+    font-weight: 400;
+   color: var(--gray-200-color);
+    text-align: start;
+
+
+}
+
+.container-01 {
+    background-color: var(--gray-600-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 56px 120px;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
