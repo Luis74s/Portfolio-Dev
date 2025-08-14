@@ -1,0 +1,76 @@
+#footer01 {
+     background-image: url('../assets/Imagens/Background_Contacts.png');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.footer-text {
+    text-align: center;
+    padding: 48px;
+}
+
+.footer-text h6 {
+    font: "Inconsolata", monospace 20px/120%;
+    color: var(--purple-color);
+    font-size: var(--text-sm);
+
+}
+
+
+.footer-text h1 {
+    color: var(--gray-100-color);
+    font-weight: 800;
+    margin: 10px 0;
+
+}
+
+.footer-text p {
+    font-family: var(--text-sm);
+    color: var(--gray-200-color);
+
+}
+
+
+.footer-icons {
+    width: 400px;
+    height: 68px;
+    font-family: "Maven Pro", sans-serif 14px/140%;
+    color: var(--gray-200-color);
+    background-color: var(--gray-400-color);
+    border-radius: 10px;
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    padding: 20px;
+}
+
+#footer01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 128px;
+}
+
+.footer-icons a {
+    font-family: "Maven Pro", sans-serif 14px/140%;
+    font-weight: 400;
+    color: var(--gray-200-color);
+    text-decoration: none;
+    align-self: center;
+}
+
+.footer-icons .set {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.footer-icons a:hover {
+    color: #3996DB;
+}
+   
