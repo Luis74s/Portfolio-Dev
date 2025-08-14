@@ -72,5 +72,12 @@
 
 .footer-icons a:hover {
     color: #3996DB;
+
+}
+.footer-icons:hover {
+
+    border: solid 1px #3996DB ;
+
+
 }
    
